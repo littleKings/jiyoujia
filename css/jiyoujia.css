@@ -1,0 +1,205 @@
+body {
+  line-height: 1;
+}
+body input {
+  width: 55px;
+  height: 23px;
+  font-family: arial;
+}
+body .Big1 {
+  width: 100%;
+  height: 41px;
+}
+body .Big1 .daohangBig {
+  width: 1190px;
+  height: 41px;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  margin: 0 auto;
+}
+body .Big1 .daohangBig .neirong {
+  width: 1190px;
+  height: 41px;
+}
+body .Big1 .daohangBig .neirong .daohangOne {
+  width: 1190px;
+  height: 39px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao li {
+  float: left;
+  line-height: 39px;
+  text-align: center;
+  height: 39px;
+  font-size: 10px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao .one {
+  width: 87px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao .two {
+  width: 87px;
+  height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao .three {
+  width: 87px;
+  height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao .four {
+  width: 87px;
+  height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao li:hover {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  color: #f50;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangOneliebiao li:hover .oa {
+  background-color: #fff;
+  border-color: #e5e5e5;
+  color: #f50;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo {
+  float: left;
+  height: 39px;
+  padding-left: 20px;
+  line-height: 39px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao li {
+  float: left;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .zuixiaozhi {
+  width: 55px;
+  height: 23px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .zuixiaozhi input {
+  background-color: #fff;
+  border: 1px solid #dfdfe9;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .zuidazhi {
+  width: 55px;
+  height: 23px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .zuidazhi input {
+  background-color: #fff;
+  border: 1px solid #dfdfe9;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .submit {
+  width: 55px;
+  height: 23px;
+  margin-left: 10px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .submit input {
+  background-color: #f40;
+  width: 45px;
+  height: 24px;
+  border-radius: 5px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .daohangtwo .biao .fahuodi {
+  width: 89px;
+  height: 39px;
+  line-height: 39px;
+  margin-left: 350px;
+}
+body .Big1 .daohangBig .neirong .daohangOne .huanye {
+  width: 80px;
+  height: 39px;
+  float: left;
+}
+body .Big1 .daohangBig .neirong .daohangOne .huanye ul li {
+  float: left;
+  line-height: 39px;
+}
+body .Big2 {
+  width: 100%;
+  height: 4968px;
+}
+body .Big2 .chanpin {
+  width: 1370px;
+  height: 4968px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+body .Big2 .chanpin .chanpinliebiao {
+  float: left;
+}
+body .Big2 .chanpin .chanpinliebiao li {
+  width: 252px;
+  height: 352px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 1px solid #ededed;
+}
+body .Big2 .chanpin .chanpinliebiao li:hover {
+  border: 1px solid #f40;
+}
+body .Big2 .chanpin .chanpinliebiao .ps {
+  width: 250px;
+  height: 250px;
+}
+body .Big2 .chanpin .chanpinliebiao .ps>a {
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-size: 250px 250px;
+}
+body .Big2 .chanpin .chanpinliebiao .jiage {
+  margin-top: 11px;
+  height: 22px;
+  color: #f40;
+  line-height: 22px;
+  font-family: verdana arial;
+  font-size: 18px;
+  line-height: 22px;
+  zoom: 1;
+}
+body .Big2 .chanpin .chanpinliebiao .jiage span {
+  margin-right: 3px;
+}
+body .Big2 .chanpin .chanpinliebiao .neirong {
+  width: 250px;
+  height: 30px;
+  font-size: 12px;
+  padding: 0 10px;
+}
+body .Big2 .chanpin .chanpinliebiao .neirong:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming {
+  float: left;
+  margin-left: 10px;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming .hengxian {
+  float: left;
+  width: 13px;
+  height: 12px;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming .hengxian1 {
+  width: 8px;
+  height: 2px;
+  background-color: #f40;
+  margin-top: 2px;
+  float: left;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming .dian {
+  font-size: 12px;
+  color: #888;
+  text-decoration: underline;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming .dian:hover {
+  color: #f40;
+}
+body .Big2 .chanpin .chanpinliebiao .dianming .diming {
+  font-size: 12px;
+  color: #888;
+  margin-left: 131px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/jiyoujia.css">
+		<title>极有家</title>
+	</head>
+	<body>
+		<div class="Big1">
+			<div class="daohangBig">
+				<div class="neirong">
+					<div class="daohangOne">
+						<ul class="daohangOneliebiao">
+							<li class="daohangOneliebiao one"><a class="oa">价格升序</a></li>
+							<li class="daohangOneliebiao two"><a class="ob">价格降序</a></li>
+							<li class="daohangOneliebiao three"><a class="oc">交易量升序</a></li>
+							<li class="daohangOneliebiao four"><a class="od">交易量降序</a></li>
+						</ul>
+						<div class="daohangtwo">
+							<ul class="biao">
+								<li class="zuixiaozhi">
+									<input type="text" placeholder="¥" class="little">
+								</li>
+								<li>-</li>
+								<li class="zuidazhi">
+									<input type="text" placeholder="¥" class="big">
+								</li>
+								<li class="submit">
+									<input type="button" value="确定" class="queding">
+								</li>
+								<li class="fahuodi">
+									<span>发货地</span>
+								</li>
+							</ul>
+						</div>
+						<div class="huanye">
+							<ul>
+								<li>
+									<a class="houtui">
+										<span><</span>
+									</a>
+								</li>
+								<li>
+									<span class="dangqianyeshu"></span>
+									 <span class="zongyeshu"></span>
+								</li>
+								<li>
+									<a class="qianjin">
+										<span>></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Big2">
+			<div class="chanpin">
+				<ul class="chanpinliebiao">
+					<script type="text/html" id="tmpl">
+						<%for(var i = 0,dataLen=data.length;i<dataLen;i++){%>
+							<li class="chanpinliebiao1">
+								<div class="chanpinliebiao1 ps">
+									<a style="background-image:url(http:<%=data[i].image%>)" href=http:"<%=data[i].href%>">
+									</a>
+								</div>	
+								<div class="chanpinliebiao1 jiage">
+									<span>￥</span><span><%=data[i].price%></span>
+								</div>
+								<div class="chanpinliebiao1 neirong">
+									<span><%=data[i].name%></span>
+								</div>
+								<div class="chanpinliebiao1 dianming">
+									<span class="hengxian">
+										<span class="hengxian1"></span>
+										<span class="hengxian1"></span>
+										<span class="hengxian1"></span>
+									</span>
+									<span class="diming"><%=data[i].location%></span>
+								</div>
+								<div class="tubiao">
+									<img src="1.png">
+									<img src="2.png">
+									<img src="3.png">
+								</div>
+							</li>
+						<%}%>
+					</script>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="./lib/jquery@2.2.4.js"></script>
+	<script src="./lib/arttemplate@3.0.0.min.js"></script>
+	<!-- <script type="text/html" id="tmpl">
+		<%for(var i = 0,dataLen=data.length;i<dataLen;i++){%>
+			<li class="chanpinliebiao1">
+				<div class="chanpinliebiao1 ps">
+					<a style="background-image:url(<%=data[i].image%>)" href="<%=data[i].href%>">
+					</a>
+				</div>	
+				<div class="chanpinliebiao1 jiage">
+					<span>￥</span><span><%=data[i].price%></span>
+				</div>
+				<div class="chanpinliebiao1 neirong">
+					<span><%=data[i].name%></span>
+				</div>
+				<div class="chanpinliebiao1 dianming">
+					<span class="hengxian">
+						<span class="hengxian1"></span>
+						<span class="hengxian1"></span>
+						<span class="hengxian1"></span>
+					</span>
+					<span class="diming"><%=data[i].location%></span>
+				</div>
+				<div class="tubiao">
+					<img src="1.png">
+					<img src="2.png">
+					<img src="3.png">
+				</div>
+			</li>
+		<%}%>
+	</script> -->
+	<script src="./js/jiyoujia.js"></script>
+	<script src="./js/moban.js"></script>
+</html>
